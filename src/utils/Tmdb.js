@@ -50,4 +50,4 @@ export async function getHomeList () {
             items: await basicFetch(`/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
         },
     ];
-};
+}
